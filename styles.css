@@ -1,44 +1,148 @@
 *{
-    box-sizing: border-box;
-}
-div{
-    width: 50vw;
-    height: 50vh;
-    background:skyblue;
-    font-size: 30px;
-
+box-sizing: border-box;
 }
 body{
-    width:5000px;
+    margin: 0;
 }
-p{
-    font-size: 2em;
+.container{
+    margin: 0 auto;
+    width: 80vw;
 }
-.first-section{
-    background:darkcyan;
-    margin: 30px 40px 30px 60px;
-    position: relative;
-    top: 100px;
+.main-layout {
+    padding-top: 185px;
+    padding-bottom: 257px;
+    background: #E5E5E5;
+    overflow: hidden;
 }
-.layout{
-    width: 300px;
-    height: 300px;
-    background: olive;
+.main-layout-right{
+    width: 50%;
+    float: left;
+
+}
+.main-layout-left{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.main-layout-right-title{
+    font-size: 48px;
+    color: #000000;
+    margin-bottom: 60px;
+}
+.main-layout-right-text{
+    font-size: 16px;
+    color: #727272;
+    width: 525px;
+}
+.main-layout-right-key{
+    background: #34547A;
+    margin-top: 60px;
+    width: 225px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.about-us-title{
+    text-align: center;
+    color: #000000;
+    font-size: 32px;
+    padding-top: 80px;
+}
+.about-us-text{
+    color: #727272;
+    width: 40%;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+.advantages{
+    background: #34547A;
+    margin-top: 100px;
+    overflow: hidden;
+}
+.number-item-left{
+float: left;
+}
+.number-item-right{
+    float: left;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+.number-item{
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    float: left;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+.number-item-right-title{
+    font-size: 21px;
+    color: #FFFFFF;
+}
+.number-item-right-text{
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.skills{
+    padding-top: 100px;
+    padding-bottom: 257px;
+    background: #FFFFFF;
+    overflow: hidden;
+}
+.skills-right{
+    width: 50%;
+    text-align: center;
+    float: left;
+    padding-top: 100px;
     
 }
-.layout-red{
-    background: red;
-    border: 1px solid blue;
-    padding: 20px 3px 10px 13px;
-    position: absolute;
-    top: 100px;
+.skills-left{
+    float: left;
+    width: 600px;
+}
+.skills-left-title{
+    font-size: 32px;
+    color:#000000;
+    margin-bottom: 50px;
+    padding-top: 210px;
+    width: 525px;
+}
+.skills-left-text{
+    color: #727272;
+    font-size: 16px;
+    margin-top: 50px;   
+    width: 480px;
+}
+.video{
+    background: #EEEFF1;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.video-title{
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 300px;
     
 }
-.call{
-    width: 150px;
-    height: 150px;
-    background: lightcoral;
-    position: fixed;
-    left: 5px;
-    top: 10px;
+.video-text{
+    color: #727272;
+    font-size: 16px;
+   text-align: center;
+    width: 525px;
+    margin-left: 30%;
+    margin-bottom: 50px;
 }
+.video-preview{
+    width: 500px;
+    text-align: center;
+    margin-left: 5%;
+}
+
