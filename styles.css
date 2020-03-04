@@ -43,6 +43,7 @@ body{
     font-size: 16px;
     padding-bottom: 25px;
     padding-top: 25px;
+    transition: 2s all linear;
 }
 .about-us-title{
     text-align: center;
@@ -115,8 +116,21 @@ float: left;
 .skills-left-text{
     color: #727272;
     font-size: 16px;
-    margin-top: 50px;   
+    margin-top: 40px;
     width: 480px;
+    margin-bottom: 25px;
+}
+.skills-left-text-line{
+    width: 300px;
+    height: 5px;
+    background: #C4C4C4;
+}
+.skills-left-text-line-more{
+    width: 70%;
+    height: 100%;
+    background: #34547A;
+
+
 }
 .video{
     background: #EEEFF1;
@@ -141,7 +155,7 @@ float: left;
     margin-bottom: 50px;
 }
 .video-preview{
-    width: 10%;
+    width: 60%;
     text-align: center;
     margin-left: 5%;
 }
@@ -153,60 +167,20 @@ float: left;
     margin-right: 0%;
     
 }
-.project-up{
-    overflow: hidden;
-    width: 100%;
-    padding-bottom: 0px;
-    
-}
-.project-up-left-list{
+
+.project-item {
     float: left;
     width: 25%;
-    padding-bottom: 0px;
+    height: 300px;
 }
-.project-up-left-computer{
-    float: left;
-    width: 25%;
-    padding-bottom: 0px;
-    
+
+.project-item-text {
+    background-image:url("project-text.png");
 }
-.project-up-right-list{
-    float: left;
-    width: 25%;
-    padding-bottom: 0px;
+.project-item-computer {
+    background-image:url("project-laptop.png");
 }
-    
-.project-up-right-computer{
-    float: left;
-    width: 25%;
-    padding-bottom: 0px;
-}
-.project-down{
-    overflow: hidden;
-    width: 100%;
-    padding-top: 0px;
-}
-.project-down-left-list{
-    float: left;
-    width: 25%;
-   padding-top: 0px;
-}
-.project-down-left-computer{
-    float: left;
-    width: 25%;
-    padding-top: 0px;
-}
-.project-down-right-list{
-    float: left;
-    width: 25%;
-    padding-top: 0px;
-}
-    
-.project-down-right-computer{
-    float: left;
-    width: 25%;
-    padding-top: 0px;
-}
+
 .clients{
     overflow: hidden;
     padding-top: 100px;
@@ -243,41 +217,37 @@ float: left;
 .form-communicate{
     margin-top: 55px;
     overflow: hidden;
-    margin-left: 30%;
-}
-.form-communicate-name{
-    float: left;
-    margin-right: 30px;
-    color: #5F5D5D;
-    font-size: 14px;
-    width: 255px;
-    background: #FFFFFF;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    padding-left: 20px;
-    
+    margin-bottom: 100px;
+    margin-left: 35%;
 
 }
-.form-communicate-email{
+.form-column{
+    width: 200px;
     float: left;
-    color: #5F5D5D;
+
+
+}
+.form-column-right {
+    margin-left: 20px;
+}
+.form-field{
+    display: block;
+    width: 100%;
+    height: 50px;
     font-size: 14px;
-    width: 255px;
-    background: #FFFFFF;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    padding-left: 20px;
-    
+    padding-left: 10px;
 }
 .form-communicate-message{
     color: #5F5D5D;
-    padding-bottom: 175px;
-    padding-top: 20px;
-    padding-left: 20px;
-    margin-top: 70px;
-    background: #FFFFFF;
     font-size: 14px;
-    width: 540px;
+    display: block;
+    width: 420px;
+    margin-top: 80px;
+    height: 200px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+
 }
 .form-key{
     font-size: 14px;
@@ -288,6 +258,7 @@ float: left;
     width: 190px;
     margin-top: 50px;
     margin-left: 45%;
+    transition: 2s all linear;
 }
 .footer{
     background: #34547A;
@@ -319,8 +290,11 @@ float: left;
     float: left;
     margin-right: 25px;
     margin-top: 64px;
-    
-
-
+}
+.main-layout-right-key:hover{
+    background-color: coral;
+}
+.form-key:hover{
+    background-color: coral;
 }
 
